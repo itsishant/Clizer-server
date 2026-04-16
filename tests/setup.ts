@@ -1,0 +1,13 @@
+process.env.NODE_ENV = 'test';
+process.env.PORT = '4001';
+process.env.DATABASE_URL = 'postgresql://postgres:postgres@localhost:5432/clizer_test';
+process.env.JWT_ACCESS_SECRET = 'test_access_secret_that_is_long_enough_12345';
+process.env.JWT_REFRESH_SECRET = 'test_refresh_secret_that_is_long_enough_12345';
+process.env.JWT_ACCESS_EXPIRES_IN = '15m';
+process.env.JWT_REFRESH_EXPIRES_IN = '30d';
+process.env.RESET_PASSWORD_TOKEN_EXPIRES_MINUTES = '30';
+process.env.BCRYPT_SALT_ROUNDS = '10';
+process.env.FRONTEND_URL = 'http://localhost:3000';
+process.env.CORS_ORIGIN = 'http://localhost:3000';
+process.env.UPLOAD_DIR = 'uploads';
+process.env.MAX_UPLOAD_MB = '50';
