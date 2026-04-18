@@ -17,6 +17,7 @@ appRouter.use('/auth', authRouter);
 appRouter.use('/organizations', organizationsRouter);
 appRouter.use('/workspaces', workspacesRouter);
 appRouter.use('/projects', projectsRouter);
+
 appRouter.use('/projects', processingRouter);
 appRouter.use('/clips', clipsRouter);
 appRouter.use('/exports', exportsRouter);
