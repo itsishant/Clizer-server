@@ -10,6 +10,9 @@ import { projectsRouter } from '../modules/projects/routes/projects.routes';
 import { usersRouter } from '../modules/users/routes/users.routes';
 import { workspacesRouter } from '../modules/workspaces/routes/workspaces.routes';
 
+
+
+
 export const appRouter = Router();
 
 appRouter.use('/public', landingPublicRouter);
