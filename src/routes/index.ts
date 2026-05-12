@@ -10,6 +10,9 @@ import { projectsRouter } from '../modules/projects/routes/projects.routes';
 import { usersRouter } from '../modules/users/routes/users.routes';
 import { workspacesRouter } from '../modules/workspaces/routes/workspaces.routes';
 
+
+
+
 export const appRouter = Router();
 
 appRouter.use('/public', landingPublicRouter);
@@ -17,6 +20,7 @@ appRouter.use('/auth', authRouter);
 appRouter.use('/organizations', organizationsRouter);
 appRouter.use('/workspaces', workspacesRouter);
 appRouter.use('/projects', projectsRouter);
+
 appRouter.use('/projects', processingRouter);
 appRouter.use('/clips', clipsRouter);
 appRouter.use('/exports', exportsRouter);
