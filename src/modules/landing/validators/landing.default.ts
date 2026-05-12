@@ -6,7 +6,7 @@ export const defaultLandingContent: LandingContentDto = {
     badge: 'Built for creators and media teams',
     title: 'Turn Every Long Video Into High-Performing Shorts',
     subtitle:
-      'From podcasts to webinars, Clizer finds the strongest moments and delivers ready-to-post vertical clips with captions and clean framing.',
+      ' podcasts to webinars, Clizer finds the strongest moments and delivers ready-to-post vertical clips with captions and clean framing.',
     primaryCta: 'Start Free Trial',
     secondaryCta: 'See Product Tour',
     trustText: 'No credit card required. Export in 1080p.',
